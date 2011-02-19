@@ -1,0 +1,52 @@
+application: websms
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots.txt
+
+- url: /logo.png
+  static_files: logo.png
+  upload: logo.png
+
+- url: /ajax-loader.gif
+  static_files: ajax-loader.gif
+  upload: ajax-loader.gif
+
+- url: /sign-in-with-friendfeed.png
+  static_files: sign-in-with-friendfeed.png
+  upload: sign-in-with-friendfeed.png
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+- url: /tvsms.css
+  static_files: tvsms.css
+  upload: tvsms.css
+
+- url: /conf.js
+  static_files: conf.js
+  upload: conf.js
+
+- url: /jquery.blockUI.js
+  static_files: jquery.blockUI.js
+  upload: jquery.blockUI.js
+
+- url: /tvsms.js
+  static_files: tvsms.js
+  upload: tvsms.js
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /.*
+  script: application.py

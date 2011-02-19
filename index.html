@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link type="text/css" href="tvsms.css" rel="stylesheet" media="screen" />
+        <title>tvsms</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="banner" ><a href="/"><img src="logo.png" alt="" width="288" height="52" border="0" /></a>
+                <h1 id="txtCanal">Selecciona un canal</h1>
+                <span id="login" style="text-align: right;"><img src="/ajax-loader.gif" alt="loader"/></span>
+            </div>
+            <div id="left">
+                <ul id='chanels'></ul>
+            </div>
+            <div id="right">
+                <p><a href="http://gonzalo123.wordpress.com/" rel="external" target="_blank">My blog</a></p>
+                <p>[adsense]</p>
+            </div>
+            <div id="content">
+                <div id='inputForm' style="text-align: center"></div>
+                <ol class='statuses' id='ff'></ol>
+            </div>
+            <div id="footer"><h1>&copy; Gonzalo Ayuso.</h1> Source code: <a href="http://code.google.com/p/gam-tvsms" target="_blank" rel="external">code.google.com</a></div>
+        </div>
+
+        <script src="conf.js"></script>
+        <script src="tvsms.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="/jquery.blockUI.js"></script>
+
+        <script>
+            $(function() {
+                checkFfLogin();
+            });
+        </script>
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+                try {
+                        var pageTracker = _gat._getTracker("UA-8756787-1");
+                        pageTracker._trackPageview();
+                } catch(err) {}
+        </script>
+        <!-- /Google Analytics -->
+
+    </body>
+</html>

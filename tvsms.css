@@ -1,0 +1,156 @@
+/* *** css by miss monorom www.intensivstation.ch *** */
+/* css released under Creative Commons License -  http://creativecommons.org/licenses/by/2.0/deed.en  */
+
+body {
+background-color: #e1ddd9;
+font-size: 11px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0;
+margin:0;
+}
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+
+h1 {
+font-size: 11px;
+text-transform:uppercase;
+background-color: #E0A3B7;
+border-top:1px solid #564b47;
+border-bottom:1px solid #564b47;
+padding:5px 15px;
+margin:0 }
+
+h2 {
+font-size:20px;
+font-weight: normal;
+padding: 5px 10px;
+margin:0;}
+
+img.download {vertical-align:middle;}
+
+/* ----------container to center the layout-------------- */
+#container {
+width: 900px;
+margin-bottom: 10px;
+margin: 0 auto;
+background-color: #EBD3E0;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #e1ddd9;
+text-align: right;
+padding: 0px;
+margin: 0px;
+}
+#banner img {padding:10px 0px;} 
+#banner h1 {text-align: center;}
+
+/* -----------------content--------------------- */
+#content {
+background-color: #ffffff;
+padding: 0px;
+margin: 0 200px;
+}
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 400 ? "auto":"400px"); 
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0px;
+}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 200px;
+margin: 0;
+padding: 0;
+}
+#right {
+float: right;
+width: 200px;
+margin: 0;
+padding: 0;
+}
+
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+margin: 0;
+padding: 0;
+text-align: right; }
+
+
+ol.statuses li:hover, ol.statuses li.perma-hover, ol.statuses li.hover {
+background-color:#F7F7F7;
+}
+ol.statuses li.status, ol.statuses li.direct_message {
+border-bottom:1px solid #EEEEEE;
+line-height:20px;
+padding:5px 2px 4px;
+position:relative;
+}
+ol.statuses li {
+list-style-type:none;
+padding:5px 0;
+}
+ol.statuses li {
+position:relative;
+}
+
+span.status-body {
+display:block;
+margin-left:56px;
+min-height:48px;
+overflow:hidden;
+}
+
+#content li .meta, #content li .actions-hover {
+height:auto;
+}
+
+.meta {
+color:#999999;
+display:block;
+font-size:11px;
+}
+
+.entry-meta {
+text-align: right;
+margin-top:2px;
+}
+span.vcard
+{line-height:1.3em;}
+.author{display:block;position:absolute;width:30px;padding-top:2px;}
+
+#body {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-left:5px;
+-moz-border-radius-left:5px;
+-x-system-font:none;
+background:#FFFFFF none repeat scroll 0 0;
+border-color:#000;
+border-style:solid;
+border-width:1px 1px 1px 1px;
+font-family:Helvetica,Arial,Sans-serif;
+font-size:18px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+margin:0;
+outline-width:0;
+padding:1px 1px 1px 1px;
+width:150px;
+}
